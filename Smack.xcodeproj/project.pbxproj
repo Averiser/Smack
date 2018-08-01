@@ -98,7 +98,6 @@
 		84BC297520E69CCA0078FB03 = {
 			isa = PBXGroup;
 			children = (
-				84BC299320E6A0870078FB03 /* Supporting Files */,
 				84BC298020E69CCA0078FB03 /* Smack */,
 				84BC297F20E69CCA0078FB03 /* Products */,
 				79B6E04E0D58ECD1010D4298 /* Pods */,
@@ -117,6 +116,7 @@
 		84BC298020E69CCA0078FB03 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				84BC299320E6A0870078FB03 /* Supporting Files */,
 				8454BCF8210E6D9000828BF5 /* XIBs */,
 				84FDC04120F3BFDC0086B20F /* Services */,
 				84FEFDF020EA9DA100FDAFA5 /* Utilities */,
@@ -480,7 +480,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shurik.Smack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/Smack-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Smack/Supporting Files/Smack-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
